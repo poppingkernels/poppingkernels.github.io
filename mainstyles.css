@@ -5,7 +5,7 @@ body {
   align-items: center;
 }
 
-#linkbox {
+#expandable {
   width: 150px;
   height: 150px;
   background-color: rgb(235, 246, 255);
