@@ -2,14 +2,13 @@ body {
   background-color: rgb(228, 241, 241);
   text-align: center;
   display: flex;
-  align-items: center;
+  justify-content: center;
 }
 
 #expandable {
   width: 150px;
   height: 150px;
   background-color: rgb(235, 246, 255);
-  color: white;
   display: flex;
   align-items: center;
   justify-content: center;
