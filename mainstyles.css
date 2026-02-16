@@ -1,11 +1,19 @@
 body {
   background-color: rgb(228, 241, 241);
   text-align: center;
+  display: flex;
+  align-items: center;
 }
 
-/* .linkbox {
-  background-color: rgb(228, 241, 241);
-  border-color: black;
-  border-radius: 5px;
-  border: 5px;
-} */
+#linkbox {
+  width: 150px;
+  height: 150px;
+  background-color: rgb(235, 246, 255);
+  color: white;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 8px;
+  transition: all 0.3s ease;
+  cursor: pointer;
+}
