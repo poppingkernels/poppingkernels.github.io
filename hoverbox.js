@@ -1,4 +1,4 @@
-const box = document.getElementById('expandable');
+const box = document.getElementByClass('expandable');
 
 const originalWidth = box.offsetWidth;
 const originalHeight = box.offsetHeight;
