@@ -13,13 +13,13 @@ body {
 main {
   display: flex;
   gap: 40px;
-  align-items: flex-start;
+  align-items: center;
 }
 
 /* text column */
 #text-col {
   max-width: 350px;
-  text-align: left;
+  text-align: center;
 }
 
 /* link/box column */
