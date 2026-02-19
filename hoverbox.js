@@ -3,8 +3,8 @@ document.querySelectorAll('.expandable').forEach(box => {
   const originalHeight = box.offsetHeight;
 
   box.addEventListener('mouseover', () => {
-    box.style.width = originalWidth * 1.5 + 'px';
-    box.style.height = originalHeight * 1.5 + 'px';
+    box.style.width = originalWidth * 1.2 + 'px';
+    box.style.height = originalHeight * 1.2 + 'px';
     box.style.backgroundColor = 'tomato';
   });
 
